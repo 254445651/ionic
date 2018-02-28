@@ -10,7 +10,7 @@
 
 <body>
   <ion-app>
-    <ion-page>
+    <div ion-page>
       <ion-header>
         <ion-toolbar>
           <ion-title>Modal - Host Elements</ion-title>
@@ -23,7 +23,7 @@
           <ion-button class="e2ePresentModal" onclick="presentModal()">Present modal</ion-button>
         </p>
       </ion-content>
-    </ion-page>
+    </div>
   </ion-app>
 
   <script>
@@ -33,7 +33,7 @@
     class ModalPage extends HTMLElement {
       async connectedCallback() {
         this.innerHTML = `
-        <ion-page>
+        <div ion-page>
           <ion-header>
             <ion-toolbar>
               <ion-title>Super Modal</ion-title>
@@ -44,7 +44,7 @@
             <div>Here's some more content</div>
             <ion-button class="dismiss">Dismiss Modal</ion-button>
           </ion-content>
-        </ion-page>`;
+        </div>`;
 
           // listen for close event
         const button = this.querySelector('ion-button');

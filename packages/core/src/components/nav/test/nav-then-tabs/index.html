@@ -10,7 +10,7 @@
       class PageOne extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <ion-page>
+          <div ion-page>
             <ion-header>
               <ion-toolbar>
                 <ion-buttons slot="start">
@@ -25,7 +25,7 @@
                 <ion-button class="next">Go to Page Two</ion-button>
               </ion-nav-push>
             </ion-content>
-          </ion-page>
+          </div>
           `;
         }
       }
@@ -41,7 +41,7 @@
       class PageTwoSectionOne extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <ion-page>
+          <div ion-page>
             <ion-header>
               <ion-toolbar>
                 <ion-buttons slot="start">
@@ -59,7 +59,7 @@
                 <ion-button class="previous">Go Back</ion-button>
               </div>
             </ion-content>
-          </ion-page>
+          </div>
           `;
 
           const button = this.querySelector('ion-button.previous');
@@ -75,7 +75,7 @@
       class PageTwoSectionTwo extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <ion-page>
+          <div ion-page>
             <ion-header>
               <ion-toolbar>
                 <ion-buttons slot="start">
@@ -90,7 +90,7 @@
                 <ion-button class="next">Go to Page Three</ion-button>
               </ion-nav-push>
             </ion-content>
-          </ion-page>
+          </div>
           `;
         }
       }
@@ -98,7 +98,7 @@
       class PageThree extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <ion-page>
+          <div ion-page>
             <ion-header>
               <ion-toolbar>
                 <ion-buttons slot="start">
@@ -113,7 +113,7 @@
                   <ion-button class="previous">Go Back</ion-button>
               </ion-nav-pop>
             </ion-content>
-          </ion-page>
+          </div>
           `;
         }
       }
@@ -121,7 +121,7 @@
       class LoginPage extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <ion-page>
+          <div ion-page>
             <ion-header>
               <ion-toolbar>
                 <ion-buttons slot="start">
@@ -136,7 +136,7 @@
                 <ion-button>Login</ion-button>
               </ion-nav-push>
             </ion-content>
-          </ion-page>
+          </div>
           `;
         }
       }
@@ -162,7 +162,7 @@
       class TabOnePageOne extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <ion-page>
+          <div ion-page>
             <ion-header>
               <ion-toolbar>
                 <ion-buttons slot="start">
@@ -177,7 +177,7 @@
                 <ion-button class="next">Go to Tab One Page Two</ion-button>
               </ion-nav-push>
             </ion-content>
-          </ion-page>
+          </div>
           `;
         }
       }
@@ -185,7 +185,7 @@
       class TabOnePageTwo extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <ion-page>
+          <div ion-page>
             <ion-header>
               <ion-toolbar>
                 <ion-buttons slot="start">
@@ -202,7 +202,7 @@
                 </ion-nav-push>
               </div>
             </ion-content>
-          </ion-page>
+          </div>
           `;
         }
       }
@@ -210,7 +210,7 @@
       class TabOnePageThree extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <ion-page>
+          <div ion-page>
             <ion-header>
               <ion-toolbar>
                 <ion-buttons slot="start">
@@ -222,7 +222,7 @@
             <ion-content padding>
               <h1>Tab One Page Three</h1>
             </ion-content>
-          </ion-page>
+          </div>
           `;
         }
       }
@@ -230,7 +230,7 @@
       class TabTwoPageOne extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <ion-page>
+          <div ion-page>
             <ion-header>
               <ion-toolbar>
                 <ion-buttons slot="start">
@@ -245,7 +245,7 @@
                 <ion-button class="next">Go to Tab Two Page Two</ion-button>
               </ion-nav-push>
             </ion-content>
-          </ion-page>
+          </div>
           `;
         }
       }
@@ -253,7 +253,7 @@
       class TabTwoPageTwo extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <ion-page>
+          <div ion-page>
             <ion-header>
               <ion-toolbar>
                 <ion-buttons slot="start">
@@ -270,7 +270,7 @@
                 </ion-nav-push>
               </div>
             </ion-content>
-          </ion-page>
+          </div>
           `;
         }
       }
@@ -278,7 +278,7 @@
       class TabTwoPageThree extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <ion-page>
+          <div ion-page>
             <ion-header>
               <ion-toolbar>
                 <ion-buttons slot="start">
@@ -290,7 +290,7 @@
             <ion-content padding>
               <h1>Tab Two Page Three</h1>
             </ion-content>
-          </ion-page>
+          </div>
           `;
         }
       }
@@ -298,7 +298,7 @@
       class TabThreePageOne extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <ion-page>
+          <div ion-page>
             <ion-header>
               <ion-toolbar>
                 <ion-buttons slot="start">
@@ -313,7 +313,7 @@
                 <ion-button class="next">Go to Tab Three Page Two</ion-button>
               </ion-nav-push>
             </ion-content>
-          </ion-page>
+          </div>
           `;
         }
       }
@@ -321,7 +321,7 @@
       class TabThreePageTwo extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <ion-page>
+          <div ion-page>
             <ion-header>
               <ion-toolbar>
                 <ion-buttons slot="start">
@@ -338,7 +338,7 @@
                 </ion-nav-push>
               </div>
             </ion-content>
-          </ion-page>
+          </div>
           `;
         }
       }
@@ -346,7 +346,7 @@
       class TabThreePageThree extends HTMLElement {
         connectedCallback() {
           this.innerHTML = `
-          <ion-page>
+          <div ion-page>
             <ion-header>
               <ion-toolbar>
                 <ion-buttons slot="start">
@@ -358,7 +358,7 @@
             <ion-content padding>
               <h1>Tab Three Page Three</h1>
             </ion-content>
-          </ion-page>
+          </div>
           `;
         }
       }

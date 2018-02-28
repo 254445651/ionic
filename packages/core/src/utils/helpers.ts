@@ -143,7 +143,7 @@ export function getPageElement(el: HTMLElement) {
   if (tabs) {
     return tabs;
   }
-  const page = el.closest('ion-page,.ion-page,page-inner');
+  const page = el.closest('ion-page,[ion-page],page-inner');
   if (page) {
     return page;
   }

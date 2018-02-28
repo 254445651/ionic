@@ -4,7 +4,7 @@ A back button is a component that allows you navigate back into app history. To
 add a back button to your view, all you need is:
 
 ```html
-<ion-page>
+<div ion-page>
   <ion-header>
     <ion-toolbar>
       <ion-buttons slot="start">
@@ -12,7 +12,7 @@ add a back button to your view, all you need is:
       </ion-buttons>
     </ion-toolbar>
   </ion-header>
-</ion-page>
+</div>
 ```
 
 The back button component is smart enough to know what to render and what content to show.
@@ -20,7 +20,7 @@ The back button component is smart enough to know what to render and what conten
 If, however, you want more control over what is shown in the back button, you can pass your own button markup.
 
 ```html
-<ion-page>
+<div ion-page>
   <ion-header>
     <ion-toolbar>
       <ion-buttons slot="start">
@@ -33,14 +33,14 @@ If, however, you want more control over what is shown in the back button, you ca
       </ion-buttons>
     </ion-toolbar>
   </ion-header>
-</ion-page>
+</div>
 ```
 
 Or no button text at all:
 
 
 ```html
-<ion-page>
+<div ion-page>
   <ion-header>
     <ion-toolbar>
       <ion-buttons slot="start">
@@ -52,7 +52,7 @@ Or no button text at all:
       </ion-buttons>
     </ion-toolbar>
   </ion-header>
-</ion-page>
+</div>
 ```
 
 

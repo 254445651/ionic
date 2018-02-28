@@ -167,7 +167,7 @@ ion-app {
 // Page Container Structure
 // --------------------------------------------------
 
-.ion-page {
+[ion-page] {
   @include position(0);
 
   position: absolute;

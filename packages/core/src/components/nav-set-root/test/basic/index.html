@@ -17,7 +17,7 @@
   class FirstPage extends HTMLElement {
     async connectedCallback() {
       this.innerHTML = `
-      <ion-page>
+      <div ion-page>
         <ion-header>
           <ion-toolbar>
             <ion-title>Page One</ion-title>
@@ -29,7 +29,7 @@
             <ion-button class="next">Go to Page Two</ion-button>
           </ion-nav-set-root>
         </ion-content>
-      </ion-page>
+      </div>
       `;
     }
   }
@@ -37,7 +37,7 @@
   class SecondPage extends HTMLElement {
     async connectedCallback() {
       this.innerHTML = `
-      <ion-page>
+      <div ion-page>
         <ion-header>
           <ion-toolbar>
             <ion-title>Page Two</ion-title>
@@ -49,7 +49,7 @@
             <ion-button class="next">Go to Page Three</ion-button>
           </ion-nav-set-root>
         </ion-content>
-      </ion-page>
+      </div>
       `;
     }
   }
@@ -57,7 +57,7 @@
   class ThirdPage extends HTMLElement {
     async connectedCallback() {
       this.innerHTML = `
-      <ion-page>
+      <div ion-page>
         <ion-header>
           <ion-toolbar>
             <ion-title>Page Three</ion-title>
@@ -66,7 +66,7 @@
         <ion-content padding>
           <h1>Page Three</h1>
         </ion-content>
-      </ion-page>
+      </div>
       `;
     }
   }
